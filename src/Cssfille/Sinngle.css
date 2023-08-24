@@ -1,0 +1,39 @@
+.product-card {
+    border: 0;
+    padding: 0;
+    box-shadow: 0 1px 8px #c9c3c3 !important;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200%;
+    width: 30%;
+
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.product-image {
+    max-height: 200px;
+    width: 200px;
+}
+
+.product-details {
+    padding: 1rem;
+}
+
+.quantity-selector {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 1rem;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

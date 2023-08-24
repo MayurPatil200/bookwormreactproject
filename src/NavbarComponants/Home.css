@@ -1,0 +1,17 @@
+.container
+{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+.grid{
+    display: grid;
+    gap: 9rem;
+}
+.grid-two-column{
+    grid-template-columns: repeat(2,1fr);
+}
+.image_style
+{
+    height: 80px; /* Specify height in pixels */
+    width: 50%; /* Specify width as a percentage */
+}
